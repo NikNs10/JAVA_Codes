@@ -4,7 +4,7 @@ public class subarr {
     public static int getsubarr(int a[])
     {
         int count=0;
-        //int sum=0;
+        
         for (int i=0;i<a.length;i++)
         {
             for (int j=i;j<a.length;j++) 
@@ -22,10 +22,11 @@ public class subarr {
                
             } 
             System.out.println();
-            System.out.println("count is :"+count + " ");
-          //  System.out.println("SUM is :"+sum + " ");
+            
+          
             
         }
+        System.out.println("count is :"+count + " ");
         return 0;
     }
 
